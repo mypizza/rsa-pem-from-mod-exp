@@ -11,11 +11,13 @@ This allows you to use the modulus/exponent values for validating signed value.
 ```
 gem install rsa-pem-from-mod-exp
 
-require 'rsa_pem'
-```
 
-If you're including this in a gemfile:
-
-```
+# If you're including this in a gemfile:
 gem "rsa-pem-from-mod-exp", :git => "git://github.com/mypizza/rsa-pem-from-mod-exp.git"
+```
+
+```
+require 'rsa_pem'
+
+RsaPem.from(modulus, exponent) # => valid pem
 ```
