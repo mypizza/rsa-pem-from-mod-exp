@@ -6,15 +6,20 @@ It creates an RSA Public Key PEM from Modulus and Exponent value.
 
 This allows you to use the modulus/exponent values for validating signed value.
 
-# Usage
+# Installation
 
 ```
 gem install rsa-pem-from-mod-exp
 
+```
 
-# If you're including this in a gemfile:
+Or
+
+```
 gem "rsa-pem-from-mod-exp", :git => "git://github.com/mypizza/rsa-pem-from-mod-exp.git"
 ```
+
+# Usage
 
 ```
 require 'rsa_pem'
