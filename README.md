@@ -16,7 +16,7 @@ gem install rsa-pem-from-mod-exp
 Or
 
 ```
-gem "rsa-pem-from-mod-exp", :git => "git://github.com/mypizza/rsa-pem-from-mod-exp.git"
+gem 'rsa-pem-from-mod-exp'
 ```
 
 # Usage
