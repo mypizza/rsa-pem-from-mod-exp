@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary     = "Creates a valid pem given a modulus and exponent"
   s.description = "A simple rsa pem tool based off tracker1/node-rsa-pem-from-mod-exp"
   s.authors     = ["Sarah Griffis", "Daniel Chang"]
-  s.email       = 'dan.chang@slicelife.com'
+  s.email       = 'daniel.chang85@gmail.com'
   s.files       = ["lib/rsa_pem.rb"]
   s.homepage    =
     'http://rubygems.org/gems/rsa-pem-from-mod-exp'
