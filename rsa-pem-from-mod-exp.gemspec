@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'rsa-pem-from-mod-exp'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.date        = '2017-06-28'
   s.summary     = "Creates a valid pem given a modulus and exponent"
   s.description = "A simple rsa pem tool based off tracker1/node-rsa-pem-from-mod-exp"
@@ -10,4 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://rubygems.org/gems/rsa-pem-from-mod-exp'
   s.license       = 'MIT'
+
+  s.add_development_dependency 'rspec'
 end
